@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'Treasure Map Deadhand';
+	src: url('font/Treamd.ttf');
+}
+@font-face {
+	font-family: 'Going Fast';
+	src: url('font/GoingFast.ttf');
+}
+@font-face {
+	font-family: 'Kindness';
+	src: url('font/Kindness.ttf');
+}
+@font-face {
+	font-family: 'Castamere Sans';
+	src: url('font/castameresansregular.ttf');
+}
+html body {
+	text-align: center;
+	background-color: #42C0FB;
+	font-family: 'Castamere Sans';
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+#container {
+	width: 920px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+	#container #info {
+		font-family: 'Castamere Sans';
+		width: 300px;
+		float: left;
+	}
+	#container #right {
+		width: 610px;
+		float: right;
+		margin: 0;
+		padding: 0;
+	}
+	#right #middle {
+		width: 300px;
+		float: left;
+	}
+	#right #order {
+		width: 300px;
+		float: right;
+	}
+	#order #cart {
+		text-align: left;
+		background-color: yellow;
+		padding: 5px 10px 5px 10px;
+		font-family:'Castamere Sans';
+	}
+	#cart p {
+		display: none;
+	}
+	#cart input {
+		width: 3em;
+		float: right;
+	}
+	#middle #menu{
+		background-color: white;
+		background-image: url(menu_border.gif);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+		font-family: 'Castamere Sans';
+		text-align: left;
+		padding-top: 110px;
+	}
+#current {
+	color: yellow;
+	background-color: red;
+	padding: 0 10px 0 10px;
+}
+ul {
+	list-style: none;
+	background-color: rgba(0, 255, 0, .4);
+}
+ol {
+	margin-left: 15px;
+}
+span + span {
+	float: right;
+	padding-right: 30px;
+}
+h1 {
+	font-family: 'Going Fast';
+	background-color: yellow;
+	text-align: center;
+	font-size: 74;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+	border-bottom: red solid 3px;
+	vertical-align: middle;
+}
+h2 {
+	background-color: yellow;
+	text-align: center;
+	font-size: 32;
+	margin-top: 1px;
+}
+nav {
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+	border: 0px;
+	border-bottom: 3px solid red;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 350px;
+}
+nav a:link, nav a:visited {
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+nav a:hover {
+	background-color: blue;
+	color: white;
+}
+img {
+	width: 300px;
+	background-color: white;
+	padding: 0 auto 0 auto;
+	outline: none;
+}
+.contact {
+	font-size: 25;
+	background-color: yellow;
+	border: yellow solid 3px;
+}
+.coupon {
+	font-size: 25;
+	color: black;
+	background-color: white;
+	border: black dotted 3px;
+	min-width: 250px;
+	padding: 5px 0 5px 0;
+}

@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="site.css">
+<title>Navy Seafood</title>
+</head>
+<body>
+	<div id="container">
+		<h1>Navy Seafood</h1>
+		<nav>
+			<span id="current">Home</span>
+			<a href="menu.html">Menu / Order</a>
+			<a href="about.html">About Us</a>
+			<a href="contact.html">Contact Us</a>
+		</nav>
+		<div id="info">
+			<address class="contact">
+					Phone: 713-741-0620<br/>
+					Hours: 10am to 10pm<br/>
+					3502 Scott St<br/>
+					Houston, TX 77004
+			</address>
+			<div class="coupon">
+				10% Off Any Order Tomorrow
+			</div>
+			<map>
+				<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Navy+Seafood,+3502+Scott+Street,+Houston,+TX&amp;aq=0&amp;oq=navy+&amp;sll=29.817178,-95.401291&amp;sspn=0.558806,0.883026&amp;ie=UTF8&amp;hq=Navy+Seafood,&amp;hnear=3502+Scott+St,+Houston,+Texas+77004&amp;t=m&amp;ll=29.724508,-95.350299&amp;spn=0.011181,0.012832&amp;z=15&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Navy+Seafood,+3502+Scott+Street,+Houston,+TX&amp;aq=0&amp;oq=navy+&amp;sll=29.817178,-95.401291&amp;sspn=0.558806,0.883026&amp;ie=UTF8&amp;hq=Navy+Seafood,&amp;hnear=3502+Scott+St,+Houston,+Texas+77004&amp;t=m&amp;ll=29.724508,-95.350299&amp;spn=0.011181,0.012832&amp;z=15" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			</map>
+		</div>
+		<div id="right">
+			<div id="middle">
+				<h2>Special of the Day</h2>
+				<center><img src="1fish_3shrimp.jpg"></center>
+			</div>
+			<div id="order">
+				<div id="cart">
+					Your Order:<span style="float:right;">Quantity</span><br>
+					<form action="MAILTO:ryan.harrison@live.com" method="post" enctype="text/plain" oninput="x.value=parseInt(a.value)*3.69+parseInt(b.value)*15.99+parseInt(c.value)*6.16+parseInt(d.value)*14.99+parseInt(e.value)*5.25">
+						<p id="1">1 Fish, 3 Shrimp<input id="a" type="number" name="1 fish, 3 shrimp" min="0" max="10" value="0">
+						<p id="2">12 Piece fish<input id="b" type="number" name="12 fish" min="0" max="10" value="0">
+						<p id="3">1 Fish, 6 Shrimp<input id="c" type="number" name="1 fish, 6 shrimp" min="0" max="10" value="0">
+						<p id="4">30 Shrimp<input id="d" type="number" name="30 shrimp" min="0" max="10" value="0">
+						<p id="5">1 Fish, 3 Oysters Teriyaki<input id="e" type="number" name="1 fish, 3 oysters teriyaki" min="0" max="10" value="0">
+						<p style="display:block;font-family:'Times New Roman';">Total: <span style="float:right;">$<output name="x" for="a b c d e"></output></span>
+							<br>
+							<span style="vertical-align:top;">Notes:</span><textarea name="notes" rows="2" cols="30"></textarea>
+						<p style="display:block;"><input type="submit" style="float:none;width:100%" value="Place Order"><br><input type="reset" style="float:none;width:100%" value="RESET">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="site.css">
+<title>Navy Seafood</title>
+</head>
+<body>
+	<div id="container">
+		<h1>Navy Seafood</h1>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="menu.html">Menu / Order</a>
+			<span id="current">About Us</span>
+			<a href="contact.html">Contact Us</a>
+		</nav>
+		<div id="info">
+			<address class="contact">
+					Phone: 713-741-0620<br/>
+					Hours: 10am to 10pm<br/>
+					3502 Scott St<br/>
+					Houston, TX 77004
+			</address>
+			<div class="coupon">
+				10% Off Any Order Tomorrow
+			</div>
+			<map>
+				<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Navy+Seafood,+3502+Scott+Street,+Houston,+TX&amp;aq=0&amp;oq=navy+&amp;sll=29.817178,-95.401291&amp;sspn=0.558806,0.883026&amp;ie=UTF8&amp;hq=Navy+Seafood,&amp;hnear=3502+Scott+St,+Houston,+Texas+77004&amp;t=m&amp;ll=29.724508,-95.350299&amp;spn=0.011181,0.012832&amp;z=15&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Navy+Seafood,+3502+Scott+Street,+Houston,+TX&amp;aq=0&amp;oq=navy+&amp;sll=29.817178,-95.401291&amp;sspn=0.558806,0.883026&amp;ie=UTF8&amp;hq=Navy+Seafood,&amp;hnear=3502+Scott+St,+Houston,+Texas+77004&amp;t=m&amp;ll=29.724508,-95.350299&amp;spn=0.011181,0.012832&amp;z=15" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			</map>
+		</div>
+		<div id="right">
+			<div id="middle" style="background-color: yellow;">
+				<h2>About Navy Seafood</h2>
+				<span style="font-family:'Times New Roman';">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+				</span>
+			</div>
+			<div id="order">
+				<div id="cart">
+					Your Order:<span style="float:right;">Quantity</span><br>
+					<form action="MAILTO:ryan.harrison@live.com" method="post" enctype="text/plain" oninput="x.value=parseInt(a.value)*3.69+parseInt(b.value)*15.99+parseInt(c.value)*6.16+parseInt(d.value)*14.99+parseInt(e.value)*5.25">
+						<p id="1">1 Fish, 3 Shrimp<input id="a" type="number" name="1 fish, 3 shrimp" min="0" max="10" value="0">
+						<p id="2">12 Piece fish<input id="b" type="number" name="12 fish" min="0" max="10" value="0">
+						<p id="3">1 Fish, 6 Shrimp<input id="c" type="number" name="1 fish, 6 shrimp" min="0" max="10" value="0">
+						<p id="4">30 Shrimp<input id="d" type="number" name="30 shrimp" min="0" max="10" value="0">
+						<p id="5">1 Fish, 3 Oysters Teriyaki<input id="e" type="number" name="1 fish, 3 oysters teriyaki" min="0" max="10" value="0">
+						<p style="display:block;font-family:'Times New Roman';">Total: <span style="float:right;">$<output name="x" for="a b c d e"></output></span>
+							<br>
+							<span style="vertical-align:top;">Notes:</span><textarea name="notes" rows="2" cols="30"></textarea>
+						<p style="display:block;"><input type="submit" style="float:none;width:100%" value="Place Order"><br><input type="reset" style="float:none;width:100%" value="RESET">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
