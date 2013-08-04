@@ -75,6 +75,10 @@ html body {
 	padding: 0 10px 0 10px;
 }
 ul {
+	margin-top: 0px;
+	padding: 0px;
+	width: 300px;
+	float:left;
 	list-style: none;
 	background-color: rgba(0, 255, 0, .4);
 }
