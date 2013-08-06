@@ -82,7 +82,8 @@ ul {
 	width: 300px;
 	float:left;
 	list-style: none;
-	background-color: rgba(0, 255, 0, .4);
+	background-color: yellow;
+	border-radius: 5px;
 }
 ol {
 	margin-left: 15px;
@@ -118,7 +119,7 @@ nav {
 	border-bottom: 3px solid red;
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 350px;
+	width: 100%;
 }
 nav a, nav a:link, nav a:visited {
 	padding-left: 10px;
@@ -147,4 +148,91 @@ img {
 	border: black dotted 3px;
 	min-width: 250px;
 	padding: 5px 0 5px 0;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	map {
+		display: none;
+	}
+	#container {
+	        width: 90%;
+	        margin: auto;
+	}
+	        #container #info {
+	                font-family: 'Castamere Sans';
+	                width: 100%;
+	        }
+	        #container #right {
+			width: 90%;
+	        }
+		        #container #right {
+		                width: 100%;
+		                float: left;
+		                margin: 0;
+		                padding: 0;
+		        }
+			        #right #middle {
+		                width: 100%;
+		        }
+	#order #cart {
+		display:none;
+	}
+        #middle #menu{
+                background-color: white;
+                background-image: url(menu_border.gif);
+                background-repeat: no-repeat;
+                background-position: center top;
+                background-size: cover;
+                font-family: 'Castamere Sans';
+                text-align: left;
+                padding-top: 115px;
+        }
+	h2 {
+	        font-size: 32;
+	        margin-top: 0px;
+		margin-bottom: 0px;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	        border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+	#current {
+		width: 100%;
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	nav {
+		height: 120px;
+		float: left;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	nav a, nav a:link, nav a:visited {
+		display: block;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	nav a:hover {
+	        background-color: blue;
+	        color: white;
+	}
+	ul {
+	        margin: 0px;
+	        padding: 0px;
+	        width: 100%;
+	        float:left;
+	        list-style: none;
+	        background-color: yellow;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+	}
+	ol {
+	        margin-left: 15px;
+	}
 }
