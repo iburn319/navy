@@ -43,23 +43,23 @@
 				<h2>Menu</h2>
 				<div id="menu">
 					<ol>
-						<li><span><a href="#" onclick="toggle_visibility('1');">1 Fish, 3 Shrimp</a></span><span>$3.69</span>
-						<li><span><a href="#" onclick="toggle_visibility('2');">12 Piece fish</a></span><span>$15.99</span>
+						<li><span><a href="#" onclick="toggle_visibility('1');">1 Fish, 3 Shrimp</a></span><span>$4.69</span>
 						<li><span><a href="#" onclick="toggle_visibility('3');">1 Fish, 6 Shrimp</a></span><span>$6.16</span>
-						<li><span><a href="#" onclick="toggle_visibility('4');">30 Shrimp</a></span><span>$14.99</span>
 						<li><span><a href="#" onclick="toggle_visibility('5');">1 Fish, 3 Oysters Teriyaki</a></span><span>$5.25</span>
+						<li><span><a href="#" onclick="toggle_visibility('2');">12 Piece fish</a></span><span>$15.99</span>
+						<li><span><a href="#" onclick="toggle_visibility('4');">30 Shrimp</a></span><span>$14.99</span>
 					</ol>
 				</div>
 			</div>
 			<div id="order">
 				<div id="cart">
 					Your Order:<span style="float:right;">Quantity</span><br>
-					<form action="MAILTO:ryan.harrison@live.com" method="post" enctype="text/plain" oninput="x.value=parseInt(a.value)*3.69+parseInt(b.value)*15.99+parseInt(c.value)*6.16+parseInt(d.value)*14.99+parseInt(e.value)*5.25">
+					<form action="MAILTO:ryan.harrison@live.com" method="post" enctype="text/plain" oninput="x.value=parseInt(a.value)*4.69+parseInt(b.value)*15.99+parseInt(c.value)*6.16+parseInt(d.value)*14.99+parseInt(e.value)*5.25">
 						<p id="1">1 Fish, 3 Shrimp<input id="a" type="number" name="1 fish, 3 shrimp" min="0" max="10" value="0">
-						<p id="2">12 Piece fish<input id="b" type="number" name="12 fish" min="0" max="10" value="0">
 						<p id="3">1 Fish, 6 Shrimp<input id="c" type="number" name="1 fish, 6 shrimp" min="0" max="10" value="0">
-						<p id="4">30 Shrimp<input id="d" type="number" name="30 shrimp" min="0" max="10" value="0">
 						<p id="5">1 Fish, 3 Oysters Teriyaki<input id="e" type="number" name="1 fish, 3 oysters teriyaki" min="0" max="10" value="0">
+						<p id="2">12 Piece fish<input id="b" type="number" name="12 fish" min="0" max="10" value="0">
+						<p id="4">30 Shrimp<input id="d" type="number" name="30 shrimp" min="0" max="10" value="0">
 						<hr>
 						Total:<span style="float:right;">$<output name="x" for="a b c d e"></output></span>
 							<br>
